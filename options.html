@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Extension Options</title>
+</head>
+<body>
+  <h1>Extension Options</h1>
+  <form id="options-form">
+    <label for="endpoint">Endpoint URL:</label>
+    <input type="text" size="100" id="endpoint" name="endpoint" value="https://europe-west1-tagr-prod.cloudfunctions.net/addToNodeV2">
+    <br>
+    <label for="apiToken">API Token:</label>
+    <input type="text" size="100" id="apiToken" name="apiToken">
+    <br>
+    <label for="targetNodeId">Target Node ID:</label>
+    <input type="text" size="100" id="targetNodeId" name="targetNodeId" value="INBOX">
+    <br>
+    <label for="superTagId">Super Tag ID:</label>
+    <input type="text" size="100" id="superTagId" name="superTagId">
+    <br>
+    <button type="button" id="save-button">Save</button>
+  </form>
+  <script src="options.js"></script>
+</body>
+</html>
